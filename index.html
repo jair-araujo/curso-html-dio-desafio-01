@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio 01 - Trilha HTML Modulo 01 DIO</title>
+  </head>
+  <body>
+    <h1>Resumo das aulas da Formação HTML Web Developer</h1>
+    <hr />
+
+    <h2>História da Web</h2>
+    <ul>
+      <li><a href="#primeiros-computadores">Primeiros Computadores</a></li>
+      <li><a href="#como-surgiu">Como surgiu</a></li>
+      <li><a href="#grandes-nomes">Grandes Nomes</a></li>
+    </ul>
+
+    <h2>O que são Clients</h2>
+    <ul>
+      <li><a href="#client">Client no linguajar Web</a></li>
+      <li><a href="#navegadores">Navegadores</a></li>
+      <li><a href="#aplicacoes-web">Aplicações Web</a></li>
+      <li><a href="#dispositivos-moveis">Dispositivos Móveis</a></li>
+    </ul>
+
+    <h2>O que são Servers</h2>
+    <ul>
+      <li><a href="#server">Sobre servidores</a></li>
+      <li>
+        <a href="#hardware-software">Hardwares e Softwares em Servidores</a>
+      </li>
+      <li><a href="#tipos-servidores">Tipos de Servidores</a></li>
+      <li><a href="#hospedagem">Hospedagem de Sites</a></li>
+    </ul>
+
+    <h2>Linguagens de Programação</h2>
+    <ul>
+      <li id="#linguagem">O que é</li>
+      <li id="#server-side">Server-Side</li>
+      <li id="#client-side">Client-Side</li>
+      <li id="#html">HTML não linguagem de programação</li>
+    </ul>
+
+    <h2>História da Web</h2>
+
+    <h3 id="primeiros-computadores">Primeiros Computadores</h3>
+
+    <p>
+      A 1ª geração dos computadores começou em 1944 com o surgimento do
+      computador <strong>HAVARD MARK I</strong> um computador eletro mecânico,
+      que servia básicamente para cálculos e era composto por valvulas e outros
+      componentes mecânicos.
+    </p>
+    <p>
+      Em 1946 surge um outro computador chamado <strong>COLOSSUS</strong> também
+      utilizado para cálculos e cripto-analises criado pela Alemanha, em meados
+      da segunda guerra, muito utilizado para analisar de dados da guerra.
+    </p>
+    <p>
+      Já do lado do Estados Unidos em 1946 tinha o computador
+      <strong>ENIAC</strong>, que já era um computador um pouco mais automático
+      em relação aos outros computadores mencionados.
+    </p>
+    <p>
+      Uma caracteristica dos primeiros computadores muito relevante dos mesmo,
+      que devido serem compostos por válvulas e outros componentes que eram mais
+      precários para a época, esses computadores ocupavam muito espaço, as vezes
+      uma sala inteira
+    </p>
+    <p>
+      Uma curiosidade, é que mais ou menos nessa época que surgiu o termo
+      <em>BUG" - (Inseto)</em>, pois como os computadores eram compostos de
+      válvulas que esquentavam muito junto aos demais componentes, alguns
+      insetos acabavam sendo atraídos pelo calor e ao entrarem em contato com os
+      componentes, acabava gerando problemas nos computadores e quando era feito
+      uma intevenção técnica para arrumar os computadores o pessoal constumava
+      falar que deu <em>"BUG"</em>, por isso surgindo o termo na tecnocologia
+      que conhecemos hoje, quando temos algum problema em sistemas.
+    </p>
+    <p>
+      A 2ª geração de computadores surge entre 1959 e 1965, com a chegada dos
+      <em>Transistores</em>,que foi a evolução das válvulas e substituindo as
+      válvulas, diminuíram muito o tamanho dos computadores, tornando os mesmos
+      mais portáteis para a época, permitindo que os computadores pudessem ser
+      arrastados de uma sala para outra.
+    </p>
+    <p>
+      Na 3ª geração de computadores que foi entre 1965 e 1970, temos o
+      surgimento do <em>Circuito integrado - (CHIPS)</em> que diminuíram ainda
+      mais o tamanho dos computadores, pois o <em>Circuito integrado</em> era
+      composto por
+      <strong>Transistor, Capacitores e Resistores</strong> tornando assim ainda
+      mais portáteis os computadores.
+    </p>
+    <p>
+      A 4ª geração que é de 1971 até os dias de hojes, onde os
+      <em>Circuitos Integrados</em>, foram sendo substituídos por
+      <em>Microprocessadores</em>, os CHIPS continuam sendo utilizados, mas
+      conforme o tempo vão evoluindo cada vez mais. Começou o surgimento dos
+      <em>Personal Computer</em> onde o computadores começaram a se popularizar
+      cada vez mais, com o surgimento de computadores projetados pela
+      <strong>IBM</strong> e <strong>APPLE</strong>, inclusive o primeiro Mouse
+      foi criado pela APPLE nessa época, o que foi uma revolução para a
+      técnologia da época
+    </p>
+    <p>
+      Há quem diga que já estamos na 5ª geração, por conta dos computadores
+      quânticos, inteligência artificial, por conta das cripto-moedas e até
+      mesmo o surgimento do Metaverso, mas tem outras pessoas que discordam
+      disso, por achar que a inteligência artificial, nada mais é que uma
+      aplicação da tecnologia em si e não uma nova tecnologia.
+    </p>
+
+    <small><a href="#">Voltar</a></small>
+
+    <hr />
+
+    <h3 id="como-surgiu">Internet - Como Surgiu</h3>
+
+    <p>
+      Voltando um pouco no passado, a humanidade buscava formas de se comunicar,
+      uma forma que foi encontrada de se fazer essa comunicação, foi o
+      surgimento do equipamento <strong>Telégrafo</strong> que se utilizava do
+      Código Morse para transmitir a informação de uma ponta a outra, a primeira
+      comunicação intercontinental foi realizada após ser feito a passagem de um
+      imenso cabo de um continente a outro através do oceano em 1958
+    </p>
+    <p>
+      Na década de 1950, teve a Guerra Fria entre Estados Unidos e a União
+      Soviética, por conta da corrida espacial, nessa época o
+      <strong>ENIAC</strong>, foi concebido para realizar o cálculo da rota de
+      mísseis, onde eram utilizadas muitas várias e para isso o computador
+      ajudava realizar esses cáculos com mais velocidade.
+    </p>
+    <p>
+      Nesse periodo surgiu a <strong>ARPA</strong> - uma Agência de projetos de
+      pesquisas avançadas, depois de um tempo sendo incorporado a atribuição de
+      defesa a essa agência, acabou se tornando conhecida como
+      <strong>DARPA</strong>. Um cientista dentro da
+      <strong>DARPA</strong> chamado <em>Joseph Carl Robnett Licklider</em>,
+      teorizou sobre uma rede onde todos poderiam se comunicar, o que foi a
+      semente para estudos, para que a internet se tornasse o que temos hoje
+    </p>
+    <p>
+      Depois de muito tempo e muita evolução, surgiu a <strong>ARPANET</strong>,
+      que através de muitas pesquisas, começou a surgir a comunicação por
+      sistemas de pacotes, enviados um a um permitindo multiplos destinos.
+      Estudos sobre Nós, pontos de intersecção de informação funcionando como
+      <em>"Checkpoints"</em>, conceitos que ajudaram na evolução de roteadores.
+    </p>
+    <p>
+      A primeira comunicação através da <strong>ARPANET</strong>, foi
+      estabelecida em 29/10/1969 entre a <em>Universidade da Califórnia</em> e o
+      <em>Instituto de pesquisa de Stanford</em>
+    </p>
+    <p>
+      Com o passar dos anos e a evolução a <strong>ARPANET</strong> foi ganhando
+      mais pontos de comunicação espalhados e conectados, dois nomes importantes
+      dessa história surgiram, <em>"Vinton Cerf e Robert Kahn"</em>, que juntos
+      criaram o protocolo <strong>TCP/IP</strong> que foi implatado na
+      <strong>ARPANET</strong> deixando ela mais robusta. Com o passar do tempo
+      e essa evolução começou a surgir micro-redes, rede mais especializadas, a
+      <strong>ARPANET</strong> era muito utilizada para pesquisas e para fins
+      militar, com o tempo surgiram outras com outros fins, como a
+      <strong>NSFNET</strong> utilizada para notícias, por exemplo.
+    </p>
+    <p>
+      Porém em 1989, apareceu um homem chamado <em>Tim Berners-Lee</em>, que viu
+      uma oportunidade de unir <strong>Hypertexto</strong> com
+      <strong>TCP/IP</strong>, criando assim a
+      <strong>World Wide Web (WWW)</strong> que conhecemos hoje, pensando em
+      tornar a comunicação entre outras redes mais padronizadas, devido o
+      crescimento exponencial das redes, também sendo o criador do primeiro
+      Navegador, chamado <em>WorldWideWeb</em>, a partir dele veio o Mosaic,
+      Netscape e assim por diante. Ele é considerado o pai da internet por ter
+      juntado essas tecnologias e ter popularizado a internet. Em 6 de Agosto de
+      1991 ele publicou a primeira página web
+      <em><a href="http://info.cern.ch/">http://info.cern.ch/</a></em
+      >, que está disponível na internet até hoje.
+    </p>
+
+    <small><a href="#">Voltar</a></small>
+
+    <hr />
+
+    <h3 id="grandes-nomes">Grandes Nomes</h3>
+
+    <h4>Grace Murray Hopper</h4>
+
+    <img
+      src="https://www.vassar.edu/stories/2020/assets/images/grace-hopper-portrait.jpg"
+      alt="Uma das primeiras programadoras do Mark 1 em 1944"
+    />
+    <ul>
+      <li>Marinha dos Estados Unidos</li>
+      <li>Uma das primeiras programadoras do Mark 1 em 1944</li>
+      <li>
+        Criadora da linguagem de programação de alto nível Flow-Matic (Base do
+        COBOL)
+      </li>
+      <li>Popularizou o termo <em>"BUG"</em> na computação</li>
+    </ul>
+
+    <h4>Joseph Carl Robnett Licklider</h4>
+
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/6/66/J._C._R._Licklider.jpg"
+      alt="Joseph Carl Robnett Licklider - Cientista muito conhecido por ter defendido a criação da ARPANET e terorizado sobre as Redes Galácticas"
+    />
+    <ul>
+      <li>Recrutado pela DARPA, depois de teorizar as Redes Galácticas</li>
+      <li>
+        Plantou a semente da possibilidade de comunicação entre dois pontos
+        distintos através dos computadores.
+      </li>
+    </ul>
+
+    <h4>Robert E. Kahn</h4>
+
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Bob_Kahn.jpg/200px-Bob_Kahn.jpg"
+      alt="Robert E. Kahn - Criador do TCP/IP"
+    />
+    <ul>
+      <li>Primeira apresentação pública da ARPANET</li>
+      <li>Apresentou o primeiro E-mail</li>
+      <li>Criador do TCP/IP</li>
+    </ul>
+
+    <h4>Tim Berners-Lee</h4>
+
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg/200px-Sir_Tim_Berners-Lee_%28cropped%29.jpg"
+      alt=""
+    />
+    <ul>
+      <li>Criador do WWW, considerado pai da internet</li>
+      <li>Diretor do World Wide Web Consortion (W3C)</li>
+      <li>
+        Diversas homenagens, incluindo título de Cavaleiro dado pela Rainha
+        Elizabeth II
+      </li>
+      <li>Popularizou o HTTP e HTML</li>
+    </ul>
+
+    <h4>Marc Andreessen</h4>
+
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Marc_Andreessen.jpg/200px-Marc_Andreessen.jpg"
+      alt="Marc Andreessen - Criador do Netscape Navigator"
+    />
+    <ul>
+      <li>
+        (Re)inventou o navegador. O Netscape Navigator feito a partir do Mosaic
+      </li>
+      <li>Tornou o navegador mais "amigável", com recursos gráficos</li>
+      <li>
+        Deteve 90% da internet na época, mas sendo superado pelo Internet
+        Explorer anos mais tarde
+      </li>
+    </ul>
+
+    <h4>Bill Gates</h4>
+
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Bill_Gates_2018.jpg/200px-Bill_Gates_2018.jpg"
+      alt="Bill Gates - Fundador da Microsoft"
+    />
+    <ul>
+      <li>Fundador da Microsoft</li>
+      <li>Equipe da Microsoft criou o Internet Explorer</li>
+      <li>
+        Tornou acessível o computador para todos, com isso o acesso a internet
+      </li>
+    </ul>
+
+    <h4>Steve Jobs</h4>
+
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Steve_Jobs_Headshot_2010-CROP2.jpg/200px-Steve_Jobs_Headshot_2010-CROP2.jpg"
+      alt="Steve Jobs - Fundador da Apple"
+    />
+    <ul>
+      <li>Fundador da Apple</li>
+      <li>Concorrente da Microsoft</li>
+      <li>
+        Popularizou os Smartphones que conhecemos hoje, através do lançamento do
+        iPhone em 29 de Junho de 2007
+      </li>
+    </ul>
+
+    <small><a href="#">Voltar</a></small>
+
+    <hr />
+
+    <h2>O que são Clients</h2>
+
+    <h3 id="client">Client no linguajar Web</h3>
+
+    <p>
+      Client é a parte que faz requisições para um Servidor, como um computador
+      pessoal, celular ou tablet, para obter informações e renderizar em tela
+      para o usuário, essa comunicação é feita via Navegador, que faz a ponte
+      entre o Client e o servidor.
+    </p>
+    <p>
+      O Navegador recebe os arquivos que são enviados como resposta do Servidor,
+      que são arquivos <abbr title="Hyper Text Markup Language">HTML</abbr>,
+      <abbr title="Cascating Style Sheet">CSS</abbr>, Javascript, imagens e etc,
+      fazendo um cache na máquina do cliente, para tornar a experiencia de
+      navegação mais rápida e agradável.
+    </p>
+    <p>
+      Algumas preocupações do lado Client, é criar códigos que sejam
+      responsivos, para que se adpate aos diversos tipos de dispositivos
+      clientes, como Notebooks, tablets, celulares e etc. Há também a
+      preocupação com a compartibilidade de Navegadores, pois existem vários
+      Navegadores no mercado, por isso é importante a realização de teste de
+      compartibilidade, para que o seu site se ajuste adequadamente ao
+      dispositivo do cliente.
+    </p>
+
+    <small><a href="#">Voltar</a></small>
+
+    <hr />
+
+    <h3 id="navegadores">Navegadores</h3>
+
+    <p>
+      Os navegadores são básicamente softwares, desenvolvidos para que consiga
+      interpretar arquivos <abbr title="Hyper Text Markup Language">HTML</abbr>,
+      <abbr title="Cascating Style Sheet">CSS</abbr>, e Javascript, para que
+      consiga executar esses arquivos e mostrar o site na tela do cliente. Uma
+      preocupação é a compartibilidade das tags HTML que são usadas para que
+      cada Navegador interprete o código e renderize de forma correta as
+      informação do site, por isso é bom sempre olhar quais tags são compatíveis
+      com cada navegador.
+    </p>
+
+    <p>
+      Um site de muita referencia onde se pode encontrar informações sobre a
+      compartibilidade de navegadores com as TAGs HTML e até mesmo tutariais
+      relacionado a utilização do HTML é o site da
+      <a
+        href="https://www.w3schools.com/tags/ref_html_browsersupport.asp"
+        target="_blank"
+        >w3schools</a
+      >, existe também o site da
+      <a href="https://developer.mozilla.org/" target="_blank">Mozilla</a>, tem
+      a documentação das TAGs html e entre outras, sendo possível ver quais TAGs
+      está em uso e também as que estão depreciadas, como por exemplo a TAG
+      <mark><del>font</del></mark> que não é mais utilizada.
+    </p>
+
+    <small><a href="#">Voltar</a></small>
+
+    <hr />
+
+    <h3 id="aplicacoes-web">Aplicações Web</h3>
+
+    <p>
+      Aplicações web são soluções que utilizam a internet como meio de
+      comunicação, consumindo serviços de disponíveis através da internet, mas
+      que não são instaladas no computador. São algumas aplicações que tem
+      algumas semelhanças com os aplicativos que são instalados no computador,
+      como o youtube por exemplo, que consome do servidor os serviços de streams
+      de videos, mas que tem tanto a versão web, como o aplicativo para celular
+      por exemplo.
+    </p>
+
+    <small><a href="#">Voltar</a></small>
+
+    <hr />
+
+    <h3 id="dispositivos-moveis">Dispositivos Móveis</h3>
+
+    <p>
+      Os dispositivos móveis hoje são muito mais usados do que equipamentos
+      desktop, o consumo de internet em dispositivos móveis é muito maior, pela
+      facilidade de que quase todo usuário tem um celular, por isso é importante
+      sempre levar em consideração a questão de responsividade das aplicações
+      web, sem falar que caso o seu site não atenda os requisitos de
+      responsividade os mecanismos de buscas, tiram pontos do seu site em
+      relação ao <abbr title="Search Engine Optimization">SEO</abbr>, que é
+      utilizado na busca organica de navegação que permite seu site ser bem
+      rankeado nas pesquisas de busca.
+    </p>
+
+    <small><a href="#">Voltar</a></small>
+
+    <hr />
+
+    <h2>O que são Servers</h2>
+
+    <h3 id="server">Sobre servidores</h3>
+
+    <p>
+      Servidores geralmente são máquinas com mais recursos, que suporta rodar
+      diverso tipo de serviços e gerencimaneto de arquivos, de grande volume.
+      Existem diversos tipos de servidores, servidores de email, de arquivos, de
+      segurança, web e etc.
+    </p>
+
+    <small><a href="#">Voltar</a></small>
+
+    <hr />
+
+    <h3 id="hardware-software">Hardwares e Softwares em Servidores</h3>
+
+    <p>
+      Questão de hardware, geralmente os servidores tem uma capacidade maior de
+      processamento e de armazenamento.
+    </p>
+    <p>
+      Uma parte muito importante é a parte de Software, que os servidores
+      utilizam, como sistemas operacionais próprios para servidores, que tem
+      mais recursos e disponibiliza mais controle de gerencimento do que um
+      sistema operacional comum, para computadores pessoais. Existem
+      distribuições para servidores como o Windows Server, linux (Ubuntu,
+      CentOS, Debian, etc).
+    </p>
+    <p>
+      Para servidores web, é muito comum que esses servidores tenham uma
+      distribuíção Linux instalada, por serem baseadas no sistema Unix, nesses
+      servidores também geralmente tem um software de gerencimanto de
+      requisições
+      <a
+        href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview"
+        target="_blank"
+        >HTTP - caso queria saber mais sobre clique aqui</a
+      >
+      , como o <a href="https://www.apache.org/" target="_blank">Apache</a> e
+      <a href="https://www.nginx.com/" target="_blank">Nginx</a>, os mais
+      comuns.
+    </p>
+
+    <small><a href="#">Voltar</a></small>
+
+    <hr />
+
+    <h3 id="tipos-servidores">Tipos de Servidores</h3>
+    <h4>
+      Vamos citar alguns tipos de servidores de exemplo com um pouco mais de
+      detalhes.
+    </h4>
+    <p>
+      <strong>Servidor Proxy</strong> - esse servidor tem o objetivo de ser um
+      intermediário entre o acesso de intenert e a máquina dos usuário,
+      disponibilizando o acesso de acordo com algumas regras de segurança
+      estabelecidas pela empresa, limitando alguns recursos e até mesmo o acesso
+      a sites especificos.
+    </p>
+    <p>
+      <strong>Web Server</strong> - Esse servidor é o que hospeda um site
+      através de um software como o Apache ou Nginx e disponibiliza o seu site a
+      internet
+    </p>
+    <p>
+      <strong>Email Server</strong> - Esse é um servidor destinado ao
+      armazenamento de emails
+    </p>
+    <p>
+      <strong>Database Server</strong> - Esse servidor é destinado ao
+      armazenamento de dados em bancos de dados, onde vai ter o seu
+      <abbr title="Sistema Gerenciador de Banco de Dados">SGBD</abbr> instalado
+      para que seja armazenado as informações.
+    </p>
+    <p>
+      <strong>Servidor DNS</strong> - O Servidor
+      <abbr title="Domain Name Service">DNS</abbr> é o responsável por gerar um
+      nome de apelido para o ip dos servidores disponíveis na internet, dando um
+      nome de fácil compreensão, chamado de domínio, para que o usuário consiga
+      acessar o seu site de forma mais fácil, do que ele ter que decorar o IP
+      que do seu servidor.
+    </p>
+
+    <small><a href="#">Voltar</a></small>
+
+    <hr />
+
+    <h3 id="hospedagem">Hospedagem de Sites</h3>
+    <p>
+      A hospedagem é um serviço que você contrata para poder disponibilizar o
+      seu site na internet, algumas hospedagem disponibilizam além de um
+      Servidor Web, para você disponibilizar o seu site, também podem oferecer o
+      serviço de servidor de email embutido no seu pacote, depende de cada
+      hospedagem e seus planos, tem algumas que oferecem também o serviço de
+      compra de domínio para que você possa ter o seu domínio personalizado,
+      disponível na internet, como por exemplo <mark>meusite.com.br</mark>, você
+      pode também contratar um domínio a parte diretamente no site da
+      <a href="https://registro.br/">registro.br</a>, que oferece esse serviço
+      de compra de domínios no Brasil.
+    </p>
+
+    <small><a href="#">Voltar</a></small>
+
+    <hr />
+
+    <h2>Linguagens de Programação</h2>
+
+    <h3 id="linguagem">O que é</h3>
+    <p>
+      Linguagem de programação é uma linguagem estruturada e formal, para o
+      desenvolvimento de softwares, existem diversas linguagens, para vários
+      contextos diferentes, seja para o desenvolvimento web, mobile ou até mesmo
+      desktop.
+    </p>
+
+    <small><a href="#">Voltar</a></small>
+
+    <hr />
+
+    <h3 id="server-side">Server-Side</h3>
+    <p>
+      Linguagens Server-side são linguagens que rodam do lado do servidor, que
+      utilizam dos recursos do servidor para disponibilizar alguma informação ao
+      usuário, alguns das linguagens que rodam do lado do servidor são: PHP,
+      Java, Javascript (NodeJS), C#, Ruby e entre outras.
+    </p>
+
+    <small><a href="#">Voltar</a></small>
+
+    <hr />
+
+    <h3 id="client-side">Client-Side</h3>
+    <p>
+      Linguagens Client-Side são linguagens que rodam do lado do Cliente, no
+      navegador, temos a linguagens Javascript que é a linguagem que os
+      navegadores entendem, pois o Javascript é embutido no motor de
+      intepretação do navegador que é o V8, o mais conhecido por conta de ser o
+      motor do Chrome.
+    </p>
+
+    <small><a href="#">Voltar</a></small>
+
+    <hr />
+
+    <h3 id="html">HTML não linguagem de programação</h3>
+    <p>
+      HMTL não é uma linguagem de programação, pois ela é uma linguagem de
+      marcação, que dar significado para o conteúdo disponibilizado na página,
+      dando sentido semântico para que os mecanismos de buscas e para que o
+      navegador possa disponibilizar o conteúdo em tela em uma estrutura
+      especifica, dependendo das TAGs utilizadas, para marcar os textos e
+      conteúdos.
+    </p>
+
+    <small><a href="#">Voltar</a></small>
+
+    <hr />
+  </body>
+</html>
